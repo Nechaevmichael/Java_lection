@@ -20,5 +20,19 @@ public class cycles {
         }
         while (item != 0);
         System.out.println(count_1);
+
+        // continue
+        for (int i = 0; i < 10; i++) {
+            if (i % 2 == 0) {
+                continue;
+            }
+            System.out.println(i);
+        }
+
+        // Перебор массива
+        int[] arr = new int[] {1, 2, 3, 5, 77};
+        for (int i : arr) {
+            System.out.println(i);
+        }
     }
 }
