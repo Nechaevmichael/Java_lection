@@ -52,11 +52,19 @@ import java.util.Scanner;
         System.out.printf("name: ");
         String name = iScanner.nextLine();
         System.out.printf("Привет, %s", name);
-        
+
+        // Функции
+
+        sayHi();
+
     }
 
     static String getType(Object o) {
         return o.getClass().getSimpleName();
+    }
+
+    static void sayHi() {
+        System.out.println("hi");
     }
 
 }
